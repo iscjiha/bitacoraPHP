@@ -1,0 +1,220 @@
+/* css reset - makes the layout looking good in all browsers */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block; 
+}
+
+body { line-height: 1; font:13px/20px Arial; background: #D8D8D8; }
+
+ol, ul { list-style: none; }
+
+a{ text-decoration: none; color: #585858}
+
+.btnVerde {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff; -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff; box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4eba55), color-stop(1, #0f9e14) );
+    background:-moz-linear-gradient( center top, #4eba55 5%, #0f9e14 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4eba55', endColorstr='#0f9e14');
+    background-color:#4eba55;
+    -moz-border-radius:6px; -webkit-border-radius:6px;
+    border-radius:6px; border:1px solid #e6e6e6;
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #046b3d;
+    
+}.btnVerde:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0f9e14), color-stop(1, #4eba55) );
+    background:-moz-linear-gradient( center top, #0f9e14 5%, #4eba55 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f9e14', endColorstr='#4eba55');
+    background-color:#0f9e14;
+    
+}.btnVerde:active {
+    position:relative;
+    top:1px;
+}
+
+.btnAzul {
+    -moz-box-shadow:inset 0px 1px 0px 0px #82afcc; -webkit-box-shadow:inset 0px 1px 0px 0px #82afcc; box-shadow:inset 0px 1px 0px 0px #82afcc;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7ac7f0), color-stop(1, #44aed4) );
+    background:-moz-linear-gradient( center top, #7ac7f0 5%, #44aed4 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7ac7f0', endColorstr='#44aed4');
+    background-color:#7ac7f0;
+    -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px;
+    border:1px solid #3ea1d6;
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #0e7791;
+    
+}.btnAzul:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #44aed4), color-stop(1, #7ac7f0) );
+    background:-moz-linear-gradient( center top, #44aed4 5%, #7ac7f0 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44aed4', endColorstr='#7ac7f0');
+    background-color:#44aed4;
+
+}.btnAzul:active {
+    position:relative;
+    top:1px;
+}
+
+.btnNaranja{
+    -moz-box-shadow:inset 0px 1px 0px 0px #b86c42; -webkit-box-shadow:inset 0px 1px 0px 0px #b86c42; box-shadow:inset 0px 1px 0px 0px #b86c42;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d67737), color-stop(1, #c7611e) );
+    background:-moz-linear-gradient( center top, #d67737 5%, #c7611e 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d67737', endColorstr='#c7611e');
+    background-color:#d67737;
+    -moz-border-radius:6px; webkit-border-radius:6px; border-radius:6px;
+    border:1px solid #b8661e;
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #8a3913;
+    
+}.btnNaranja:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c7611e), color-stop(1, #d67737) );
+    background:-moz-linear-gradient( center top, #c7611e 5%, #d67737 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7611e', endColorstr='#d67737');
+    background-color:#c7611e;
+    
+}.btnNaranja:active {
+    position:relative;
+    top:1px;
+}
+
+.icon { cursor: pointer}
+.xs{ width: 10px;}
+.s{ width: 15px;}
+
+.msjConfirmacion{ padding: 3px; color: green; border: solid 1px green; }
+.msjAlerta{ padding: 3px; color: red; border: solid 1px red; }
+
+/* ----------------------------------------------- Header -------------------------------------------------- */
+
+#nombreUsuario{position: absolute; float: left; margin-top: 20px; color: 69A559}
+
+#header{ height: 30px; font-size: 18px; color: #424242; background-color: white; padding: 5px 5px 12px 5px;
+-webkit-box-shadow: 0px 6px 4px rgba(48, 50, 50, 0.52); -moz-box-shadow:    0px 6px 4px rgba(48, 50, 50, 0.52); box-shadow:         0px 6px 4px rgba(48, 50, 50, 0.52);}
+
+#tituloSistema{float: left; font-size: 14px; color: #A4A4A4}
+
+#menuPrincipal{ float: right; margin-right: 1px; font-size: 12px; font-weight: bold}
+#menuPrincipal li{ background-color: #F2F2F2; float: left; margin-left: 2px; padding: 3px; color: #585858; cursor: pointer; -webkit-border-radius: 5px;    
+    border-radius: 5px;}
+#menuPrincipal li:hover{ background-color: #69A559; color: white;}
+
+/* ------------------------------------------ Sidebar  ------------------------------------------ */
+
+#cajaRespuesta{ padding: 2px; background: #6E6E6E; color: white; display: none;}
+.contadorTickets{ font-size: 11px; color: red; margin-left: 4px; text-decoration: blink}
+.elementoActivo{ background: #CEF6CE}
+.actividadPendiente{ padding: 1px; background: #8A0808; color: #D8D8D8; font-weight: bold;
+                     -webkit-border-radius: 5px; border-radius: 5px; cursor: pointer}
+
+.iconListado{ float: right; font-size: .9em}
+
+.elemListado{ padding: 2px; border: solid 1px #E6E6E6; margin-bottom: 2px;}
+.elemListado:hover{ cursor: pointer; background: #CEF6CE; border: solid 1px #CEF6CE; }
+.elemListadoPendiente{ background: #8a3913}
+
+#footSider{ padding: 5px; background:#F2F2F2}
+
+.sidebar{ width: 40%; background: white; border: solid 1px #D8D8D8; padding: 3px; min-height: 99%; float: left; margin-right: 10px}
+
+.btnPpalSidebar{ font-weight: bold; background: white; padding: 2px; float: left; margin-right: 10px; cursor: pointer; border-bottom: solid 2px #EEECE5}
+.btnPpalSidebar:hover{border-bottom: solid 2px #B6AF94 }
+.btnPpalSidebarActivo{border-bottom: solid 2px #B6AF94 }
+
+.opcListado{ text-align: right; clear: right; }
+
+#cajaBuscarRangoFechas{ clear: both; background: #CEF6CE; }
+
+.fechaElemLista, #lblFechaActiVista{ color:#848484; font-size: 12px; font-weight: bold; }
+
+.listadoElementos{ clear: both; height: 90%; overflow-y: scroll; overflow-x: hidden; min-height: 500px; max-height: 620px;}
+
+.iconInforma{ width: 25px;float: right;}
+
+#tablaChecadas{width: 100%; background: #F2F2F2}
+#tablaChecadas thead th{ background: #424242; color: white; text-align: left; padding-left: 5px}
+#tablaChecadas tbody td{ padding: 2px; text-align: center}
+#tablaChecadas tbody tr:nth-child(2n+1) {background-color: white;color: #585858}
+#tablaChecadas tbody tr:hover{ background: #CEF6CE}
+
+/* ------------------------------------------ Contenido  ------------------------------------------ */
+
+#btnResponderTicket{ width: 100px; padding: 1px; color: #BDBDBD; -webkit-border-radius: 5px; border-radius: 5px; cursor: pointer}
+#btnResponderTicket:hover{ color: white}
+
+#contenido{
+    width: 96%;
+    height: 88%;
+    margin: 15px 1%;
+    padding: 10px;
+    background: #F2F2F2;
+    border: solid 2px #848484;
+    -webkit-border-radius: 5px; border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 9px rgba(48, 50, 50, 0.34); -moz-box-shadow: 5px 5px 9px rgba(48, 50, 50, 0.34); box-shadow: 5px 5px 9px rgba(48, 50, 50, 0.34);
+    position: absolute;
+    overflow: hidden;
+}
+
+.cajaElemento{ width: 57%; background: white; border: solid 1px #D8D8D8; padding: 3px; max-height: 99%; float: left; overflow: hidden}
+
+#txtDescripcion, #txtInstruccion{ width: 100%; margin-top: 5px; margin-bottom: 3px; min-height: 600px; max-height: 100% !important}
+#txtRespuestaTicket{ width: 83%; height: 100px; margin-top: 3px}
+/* Footer */
+
+#footer{
+width: 960px;
+height: 150px;
+margin: -150px auto 0;
+}
+
+#dialogoChecado{
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;    
+    position: fixed;
+    background: #D8D8D8;    
+}
+
+#cajaPreguntaChecado{
+    width: 30%;
+    height: auto;
+    margin: 5% auto;
+    padding: 20px;
+    background: white;
+    border: solid 2px darkgrey;
+    -webkit-border-radius: 5px; border-radius: 5px;
+    text-align: center;
+}
+
+.inputHora{ font-size: 35px;}
+
+#msjFrm{ float: right; width: auto; text-align: right }
+
+.tablaChecadas{ margin: 0 auto; border-collapse: separate; background: #F2F2F2; border-collapse: separate; padding: 2px; border: solid 1px #BDBDBD}
+.tablaChecadas thead th{ font-weight: bold; text-align: left; background: #585858; padding: 3px; color: white}
+.tablaChecadas tbody td{ padding: 2px}

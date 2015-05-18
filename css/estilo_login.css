@@ -1,0 +1,15 @@
+body{background:#F2F2F2; font-family: sans-serif; font-size: 14px}
+
+/*Estilos de tabla */
+
+.tablaLogin{ margin-top: 50px; width: 260px; padding: 10px; background-color: #424242; border: solid 8px #D8D8D8;
+             -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+}
+.tablaLogin thead { background-color: #F2F2F2; text-align: center}
+input{ height: 30px; width: 100%; font-size: 14px; color: #6E6E6E}
+
+#alerta_login{ color: #848484; height: 20px; vertical-align: middle; padding: 4px;}
+
+#tituloSistema{ margin-top: 100px; width: 200px; font-size: 18px;  color: white;  background: #424242;
+    -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+}
