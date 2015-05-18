@@ -1,5 +1,5 @@
 [SQL]
 host = localhost
 user = root
-password = 
+password =
 dbname = bitacora
